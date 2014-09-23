@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  weatherNew
+//
+//  Created by gaoyong on 14-9-23.
+//  Copyright (c) 2014年 gaoyong. All rights reserved.
+//
+
+
+
+#import <Availability.h>
+
+#ifndef weatherNew_PrefixHeader_pch
+#define weatherNew_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "CommonDefine.h"
+#import "UIImage+ext.h"
+#import "BaseViewController.h"
+#import "TagDefine.h"
+#import "NotificationDefine.h"
+#import "BaseModel.h"
+#import "SafeClassMethod.h"
+#endif
+
+
+#endif

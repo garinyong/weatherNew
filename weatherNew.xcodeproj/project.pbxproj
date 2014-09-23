@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8238D519D1757D005BA4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238D419D1757D005BA4E8 /* main.m */; };
+		EE8238D819D1757D005BA4E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238D719D1757D005BA4E8 /* AppDelegate.m */; };
+		EE8238DB19D1757D005BA4E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238DA19D1757D005BA4E8 /* ViewController.m */; };
+		EE8238DE19D1757D005BA4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8238DC19D1757D005BA4E8 /* Main.storyboard */; };
+		EE8238E019D1757D005BA4E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8238DF19D1757D005BA4E8 /* Images.xcassets */; };
+		EE8238E319D1757E005BA4E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8238E119D1757E005BA4E8 /* LaunchScreen.xib */; };
+		EE8238EF19D1757E005BA4E8 /* weatherNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */; };
+		EE8238FC19D175EC005BA4E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238FB19D175EC005BA4E8 /* CoreGraphics.framework */; };
+		EE8238FE19D1760A005BA4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238FD19D1760A005BA4E8 /* Foundation.framework */; };
+		EE8238FF19D17618005BA4E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238F819D175C0005BA4E8 /* UIKit.framework */; };
+		EE82390119D17623005BA4E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82390019D17623005BA4E8 /* CFNetwork.framework */; };
+		EE82390319D17630005BA4E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82390219D17630005BA4E8 /* SystemConfiguration.framework */; };
+		EE82390519D17637005BA4E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82390419D17637005BA4E8 /* Security.framework */; };
+		EE82390719D17640005BA4E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82390619D17640005BA4E8 /* CoreLocation.framework */; };
+		EE82390919D17646005BA4E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82390819D17646005BA4E8 /* ImageIO.framework */; };
+		EE82392019D17671005BA4E8 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82390D19D17671005BA4E8 /* NSData+MKBase64.m */; };
+		EE82392119D17671005BA4E8 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82390F19D17671005BA4E8 /* NSDate+RFC1123.m */; };
+		EE82392219D17671005BA4E8 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391119D17671005BA4E8 /* NSDictionary+RequestEncoding.m */; };
+		EE82392319D17671005BA4E8 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391319D17671005BA4E8 /* NSString+MKNetworkKitAdditions.m */; };
+		EE82392419D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391519D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		EE82392519D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391719D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m */; };
+		EE82392619D17671005BA4E8 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391919D17671005BA4E8 /* MKNetworkEngine.m */; };
+		EE82392719D17671005BA4E8 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391C19D17671005BA4E8 /* MKNetworkOperation.m */; };
+		EE82392819D17671005BA4E8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82391F19D17671005BA4E8 /* Reachability.m */; };
+		EE82396F19D178D7005BA4E8 /* SafeClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82392C19D178D7005BA4E8 /* SafeClassMethod.m */; };
+		EE82397019D178D7005BA4E8 /* UIImage+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82392E19D178D7005BA4E8 /* UIImage+ext.m */; };
+		EE82397119D178D7005BA4E8 /* UINavigationBar+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82393019D178D7005BA4E8 /* UINavigationBar+ext.m */; };
+		EE82397219D178D7005BA4E8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82393319D178D7005BA4E8 /* BaseViewController.m */; };
+		EE82397319D178D7005BA4E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82393519D178D7005BA4E8 /* DetailViewController.m */; };
+		EE82397419D178D7005BA4E8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82393719D178D7005BA4E8 /* HomeViewController.m */; };
+		EE82397519D178D7005BA4E8 /* WeatherDataEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82393A19D178D7005BA4E8 /* WeatherDataEngine.m */; };
+		EE82397619D178D7005BA4E8 /* AppPrepareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394119D178D7005BA4E8 /* AppPrepareTool.m */; };
+		EE82397719D178D7005BA4E8 /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394319D178D7005BA4E8 /* CommonHelper.m */; };
+		EE82397819D178D7005BA4E8 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394619D178D7005BA4E8 /* BaseModel.m */; };
+		EE82397919D178D7005BA4E8 /* weatherInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394819D178D7005BA4E8 /* weatherInfoModel.m */; };
+		EE82397A19D178D7005BA4E8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394B19D178D7005BA4E8 /* MKAnnotationView+WebCache.m */; };
+		EE82397B19D178D7005BA4E8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394D19D178D7005BA4E8 /* NSData+ImageContentType.m */; };
+		EE82397C19D178D7005BA4E8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82394F19D178D7005BA4E8 /* SDImageCache.m */; };
+		EE82397D19D178D7005BA4E8 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395119D178D7005BA4E8 /* SDWebImageCompat.m */; };
+		EE82397E19D178D7005BA4E8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395319D178D7005BA4E8 /* SDWebImageDecoder.m */; };
+		EE82397F19D178D7005BA4E8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395519D178D7005BA4E8 /* SDWebImageDownloader.m */; };
+		EE82398019D178D7005BA4E8 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395719D178D7005BA4E8 /* SDWebImageDownloaderOperation.m */; };
+		EE82398119D178D7005BA4E8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395919D178D7005BA4E8 /* SDWebImageManager.m */; };
+		EE82398219D178D7005BA4E8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395C19D178D7005BA4E8 /* SDWebImagePrefetcher.m */; };
+		EE82398319D178D7005BA4E8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82395E19D178D7005BA4E8 /* UIButton+WebCache.m */; };
+		EE82398419D178D7005BA4E8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396019D178D7005BA4E8 /* UIImage+GIF.m */; };
+		EE82398519D178D7005BA4E8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396219D178D7005BA4E8 /* UIImage+MultiFormat.m */; };
+		EE82398619D178D7005BA4E8 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396419D178D7005BA4E8 /* UIImage+WebP.m */; };
+		EE82398719D178D7005BA4E8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396619D178D7005BA4E8 /* UIImageView+HighlightedWebCache.m */; };
+		EE82398819D178D7005BA4E8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396819D178D7005BA4E8 /* UIImageView+WebCache.m */; };
+		EE82398919D178D7005BA4E8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396A19D178D7005BA4E8 /* UIView+WebCacheOperation.m */; };
+		EE82398A19D178D7005BA4E8 /* WeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396D19D178D7005BA4E8 /* WeatherTableViewCell.m */; };
+		EE82398B19D178D7005BA4E8 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE82396E19D178D7005BA4E8 /* WeatherTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8238E919D1757E005BA4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8238C719D1757D005BA4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8238CE19D1757D005BA4E8;
+			remoteInfo = weatherNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8238CF19D1757D005BA4E8 /* weatherNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8238D319D1757D005BA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8238D419D1757D005BA4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE8238D619D1757D005BA4E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE8238D719D1757D005BA4E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE8238D919D1757D005BA4E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE8238DA19D1757D005BA4E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE8238DD19D1757D005BA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8238DF19D1757D005BA4E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE8238E219D1757E005BA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8238ED19D1757E005BA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherNewTests.m; sourceTree = "<group>"; };
+		EE8238F819D175C0005BA4E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE8238FB19D175EC005BA4E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE8238FD19D1760A005BA4E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE82390019D17623005BA4E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE82390219D17630005BA4E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE82390419D17637005BA4E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE82390619D17640005BA4E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE82390819D17646005BA4E8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EE82390C19D17671005BA4E8 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		EE82390D19D17671005BA4E8 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		EE82390E19D17671005BA4E8 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		EE82390F19D17671005BA4E8 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		EE82391019D17671005BA4E8 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		EE82391119D17671005BA4E8 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		EE82391219D17671005BA4E8 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		EE82391319D17671005BA4E8 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		EE82391419D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		EE82391519D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		EE82391619D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		EE82391719D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		EE82391819D17671005BA4E8 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		EE82391919D17671005BA4E8 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		EE82391A19D17671005BA4E8 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		EE82391B19D17671005BA4E8 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		EE82391C19D17671005BA4E8 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		EE82391E19D17671005BA4E8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EE82391F19D17671005BA4E8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EE82392919D1777E005BA4E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE82392B19D178D7005BA4E8 /* SafeClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeClassMethod.h; sourceTree = "<group>"; };
+		EE82392C19D178D7005BA4E8 /* SafeClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeClassMethod.m; sourceTree = "<group>"; };
+		EE82392D19D178D7005BA4E8 /* UIImage+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ext.h"; sourceTree = "<group>"; };
+		EE82392E19D178D7005BA4E8 /* UIImage+ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ext.m"; sourceTree = "<group>"; };
+		EE82392F19D178D7005BA4E8 /* UINavigationBar+ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ext.h"; sourceTree = "<group>"; };
+		EE82393019D178D7005BA4E8 /* UINavigationBar+ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ext.m"; sourceTree = "<group>"; };
+		EE82393219D178D7005BA4E8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EE82393319D178D7005BA4E8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EE82393419D178D7005BA4E8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EE82393519D178D7005BA4E8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EE82393619D178D7005BA4E8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE82393719D178D7005BA4E8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EE82393919D178D7005BA4E8 /* WeatherDataEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDataEngine.h; sourceTree = "<group>"; };
+		EE82393A19D178D7005BA4E8 /* WeatherDataEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataEngine.m; sourceTree = "<group>"; };
+		EE82393C19D178D7005BA4E8 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		EE82393D19D178D7005BA4E8 /* NotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDefine.h; sourceTree = "<group>"; };
+		EE82393E19D178D7005BA4E8 /* TagDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagDefine.h; sourceTree = "<group>"; };
+		EE82394019D178D7005BA4E8 /* AppPrepareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPrepareTool.h; sourceTree = "<group>"; };
+		EE82394119D178D7005BA4E8 /* AppPrepareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPrepareTool.m; sourceTree = "<group>"; };
+		EE82394219D178D7005BA4E8 /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		EE82394319D178D7005BA4E8 /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		EE82394519D178D7005BA4E8 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		EE82394619D178D7005BA4E8 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		EE82394719D178D7005BA4E8 /* weatherInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherInfoModel.h; sourceTree = "<group>"; };
+		EE82394819D178D7005BA4E8 /* weatherInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherInfoModel.m; sourceTree = "<group>"; };
+		EE82394A19D178D7005BA4E8 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		EE82394B19D178D7005BA4E8 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		EE82394C19D178D7005BA4E8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		EE82394D19D178D7005BA4E8 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		EE82394E19D178D7005BA4E8 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		EE82394F19D178D7005BA4E8 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		EE82395019D178D7005BA4E8 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		EE82395119D178D7005BA4E8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		EE82395219D178D7005BA4E8 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EE82395319D178D7005BA4E8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		EE82395419D178D7005BA4E8 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		EE82395519D178D7005BA4E8 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		EE82395619D178D7005BA4E8 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		EE82395719D178D7005BA4E8 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		EE82395819D178D7005BA4E8 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		EE82395919D178D7005BA4E8 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		EE82395A19D178D7005BA4E8 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		EE82395B19D178D7005BA4E8 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EE82395C19D178D7005BA4E8 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EE82395D19D178D7005BA4E8 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EE82395E19D178D7005BA4E8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EE82395F19D178D7005BA4E8 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		EE82396019D178D7005BA4E8 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		EE82396119D178D7005BA4E8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		EE82396219D178D7005BA4E8 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		EE82396319D178D7005BA4E8 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		EE82396419D178D7005BA4E8 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		EE82396519D178D7005BA4E8 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		EE82396619D178D7005BA4E8 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		EE82396719D178D7005BA4E8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EE82396819D178D7005BA4E8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		EE82396919D178D7005BA4E8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		EE82396A19D178D7005BA4E8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		EE82396C19D178D7005BA4E8 /* WeatherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewCell.h; sourceTree = "<group>"; };
+		EE82396D19D178D7005BA4E8 /* WeatherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewCell.m; sourceTree = "<group>"; };
+		EE82396E19D178D7005BA4E8 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		EE82398C19D17BDF005BA4E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EE82398D19D17BDF005BA4E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EE82399019D17C41005BA4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8238CC19D1757D005BA4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82390919D17646005BA4E8 /* ImageIO.framework in Frameworks */,
+				EE82390719D17640005BA4E8 /* CoreLocation.framework in Frameworks */,
+				EE82390519D17637005BA4E8 /* Security.framework in Frameworks */,
+				EE82390319D17630005BA4E8 /* SystemConfiguration.framework in Frameworks */,
+				EE82390119D17623005BA4E8 /* CFNetwork.framework in Frameworks */,
+				EE8238FF19D17618005BA4E8 /* UIKit.framework in Frameworks */,
+				EE8238FE19D1760A005BA4E8 /* Foundation.framework in Frameworks */,
+				EE8238FC19D175EC005BA4E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8238E519D1757E005BA4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8238C619D1757D005BA4E8 = {
+			isa = PBXGroup;
+			children = (
+				EE8238D119D1757D005BA4E8 /* weatherNew */,
+				EE8238EB19D1757E005BA4E8 /* weatherNewTests */,
+				EE8238FA19D175CA005BA4E8 /* Frameworks */,
+				EE8238D019D1757D005BA4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8238D019D1757D005BA4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8238CF19D1757D005BA4E8 /* weatherNew.app */,
+				EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8238D119D1757D005BA4E8 /* weatherNew */ = {
+			isa = PBXGroup;
+			children = (
+				EE82392A19D178D7005BA4E8 /* Category */,
+				EE82393119D178D7005BA4E8 /* Controllers */,
+				EE82393819D178D7005BA4E8 /* DataAccess */,
+				EE82393B19D178D7005BA4E8 /* Define */,
+				EE82393F19D178D7005BA4E8 /* Helpers */,
+				EE82394419D178D7005BA4E8 /* Models */,
+				EE82394919D178D7005BA4E8 /* SDWebImage */,
+				EE82396B19D178D7005BA4E8 /* View */,
+				EE82390A19D17671005BA4E8 /* MKNetworkKit */,
+				EE8238D619D1757D005BA4E8 /* AppDelegate.h */,
+				EE8238D719D1757D005BA4E8 /* AppDelegate.m */,
+				EE8238D919D1757D005BA4E8 /* ViewController.h */,
+				EE8238DA19D1757D005BA4E8 /* ViewController.m */,
+				EE8238DC19D1757D005BA4E8 /* Main.storyboard */,
+				EE8238DF19D1757D005BA4E8 /* Images.xcassets */,
+				EE8238E119D1757E005BA4E8 /* LaunchScreen.xib */,
+				EE8238D219D1757D005BA4E8 /* Supporting Files */,
+			);
+			path = weatherNew;
+			sourceTree = "<group>";
+		};
+		EE8238D219D1757D005BA4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8238D319D1757D005BA4E8 /* Info.plist */,
+				EE8238D419D1757D005BA4E8 /* main.m */,
+				EE82392919D1777E005BA4E8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8238EB19D1757E005BA4E8 /* weatherNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */,
+				EE8238EC19D1757E005BA4E8 /* Supporting Files */,
+			);
+			path = weatherNewTests;
+			sourceTree = "<group>";
+		};
+		EE8238EC19D1757E005BA4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8238ED19D1757E005BA4E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8238FA19D175CA005BA4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE82390819D17646005BA4E8 /* ImageIO.framework */,
+				EE82390619D17640005BA4E8 /* CoreLocation.framework */,
+				EE82390419D17637005BA4E8 /* Security.framework */,
+				EE82390219D17630005BA4E8 /* SystemConfiguration.framework */,
+				EE82390019D17623005BA4E8 /* CFNetwork.framework */,
+				EE8238FD19D1760A005BA4E8 /* Foundation.framework */,
+				EE8238FB19D175EC005BA4E8 /* CoreGraphics.framework */,
+				EE8238F819D175C0005BA4E8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE82390A19D17671005BA4E8 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE82390B19D17671005BA4E8 /* Categories */,
+				EE82391819D17671005BA4E8 /* MKNetworkEngine.h */,
+				EE82391919D17671005BA4E8 /* MKNetworkEngine.m */,
+				EE82391A19D17671005BA4E8 /* MKNetworkKit.h */,
+				EE82391B19D17671005BA4E8 /* MKNetworkOperation.h */,
+				EE82391C19D17671005BA4E8 /* MKNetworkOperation.m */,
+				EE82391D19D17671005BA4E8 /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		EE82390B19D17671005BA4E8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE82390C19D17671005BA4E8 /* NSData+MKBase64.h */,
+				EE82390D19D17671005BA4E8 /* NSData+MKBase64.m */,
+				EE82390E19D17671005BA4E8 /* NSDate+RFC1123.h */,
+				EE82390F19D17671005BA4E8 /* NSDate+RFC1123.m */,
+				EE82391019D17671005BA4E8 /* NSDictionary+RequestEncoding.h */,
+				EE82391119D17671005BA4E8 /* NSDictionary+RequestEncoding.m */,
+				EE82391219D17671005BA4E8 /* NSString+MKNetworkKitAdditions.h */,
+				EE82391319D17671005BA4E8 /* NSString+MKNetworkKitAdditions.m */,
+				EE82391419D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.h */,
+				EE82391519D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m */,
+				EE82391619D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.h */,
+				EE82391719D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EE82391D19D17671005BA4E8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EE82391E19D17671005BA4E8 /* Reachability.h */,
+				EE82391F19D17671005BA4E8 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		EE82392A19D178D7005BA4E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE82392B19D178D7005BA4E8 /* SafeClassMethod.h */,
+				EE82392C19D178D7005BA4E8 /* SafeClassMethod.m */,
+				EE82392D19D178D7005BA4E8 /* UIImage+ext.h */,
+				EE82392E19D178D7005BA4E8 /* UIImage+ext.m */,
+				EE82392F19D178D7005BA4E8 /* UINavigationBar+ext.h */,
+				EE82393019D178D7005BA4E8 /* UINavigationBar+ext.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EE82393119D178D7005BA4E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE82393219D178D7005BA4E8 /* BaseViewController.h */,
+				EE82393319D178D7005BA4E8 /* BaseViewController.m */,
+				EE82393419D178D7005BA4E8 /* DetailViewController.h */,
+				EE82393519D178D7005BA4E8 /* DetailViewController.m */,
+				EE82393619D178D7005BA4E8 /* HomeViewController.h */,
+				EE82393719D178D7005BA4E8 /* HomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE82393819D178D7005BA4E8 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				EE82393919D178D7005BA4E8 /* WeatherDataEngine.h */,
+				EE82393A19D178D7005BA4E8 /* WeatherDataEngine.m */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		EE82393B19D178D7005BA4E8 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				EE82393C19D178D7005BA4E8 /* CommonDefine.h */,
+				EE82393D19D178D7005BA4E8 /* NotificationDefine.h */,
+				EE82393E19D178D7005BA4E8 /* TagDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		EE82393F19D178D7005BA4E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE82394019D178D7005BA4E8 /* AppPrepareTool.h */,
+				EE82394119D178D7005BA4E8 /* AppPrepareTool.m */,
+				EE82394219D178D7005BA4E8 /* CommonHelper.h */,
+				EE82394319D178D7005BA4E8 /* CommonHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE82394419D178D7005BA4E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE82394519D178D7005BA4E8 /* BaseModel.h */,
+				EE82394619D178D7005BA4E8 /* BaseModel.m */,
+				EE82394719D178D7005BA4E8 /* weatherInfoModel.h */,
+				EE82394819D178D7005BA4E8 /* weatherInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE82394919D178D7005BA4E8 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EE82394A19D178D7005BA4E8 /* MKAnnotationView+WebCache.h */,
+				EE82394B19D178D7005BA4E8 /* MKAnnotationView+WebCache.m */,
+				EE82394C19D178D7005BA4E8 /* NSData+ImageContentType.h */,
+				EE82394D19D178D7005BA4E8 /* NSData+ImageContentType.m */,
+				EE82394E19D178D7005BA4E8 /* SDImageCache.h */,
+				EE82394F19D178D7005BA4E8 /* SDImageCache.m */,
+				EE82395019D178D7005BA4E8 /* SDWebImageCompat.h */,
+				EE82395119D178D7005BA4E8 /* SDWebImageCompat.m */,
+				EE82395219D178D7005BA4E8 /* SDWebImageDecoder.h */,
+				EE82395319D178D7005BA4E8 /* SDWebImageDecoder.m */,
+				EE82395419D178D7005BA4E8 /* SDWebImageDownloader.h */,
+				EE82395519D178D7005BA4E8 /* SDWebImageDownloader.m */,
+				EE82395619D178D7005BA4E8 /* SDWebImageDownloaderOperation.h */,
+				EE82395719D178D7005BA4E8 /* SDWebImageDownloaderOperation.m */,
+				EE82395819D178D7005BA4E8 /* SDWebImageManager.h */,
+				EE82395919D178D7005BA4E8 /* SDWebImageManager.m */,
+				EE82395A19D178D7005BA4E8 /* SDWebImageOperation.h */,
+				EE82395B19D178D7005BA4E8 /* SDWebImagePrefetcher.h */,
+				EE82395C19D178D7005BA4E8 /* SDWebImagePrefetcher.m */,
+				EE82395D19D178D7005BA4E8 /* UIButton+WebCache.h */,
+				EE82395E19D178D7005BA4E8 /* UIButton+WebCache.m */,
+				EE82395F19D178D7005BA4E8 /* UIImage+GIF.h */,
+				EE82396019D178D7005BA4E8 /* UIImage+GIF.m */,
+				EE82396119D178D7005BA4E8 /* UIImage+MultiFormat.h */,
+				EE82396219D178D7005BA4E8 /* UIImage+MultiFormat.m */,
+				EE82396319D178D7005BA4E8 /* UIImage+WebP.h */,
+				EE82396419D178D7005BA4E8 /* UIImage+WebP.m */,
+				EE82396519D178D7005BA4E8 /* UIImageView+HighlightedWebCache.h */,
+				EE82396619D178D7005BA4E8 /* UIImageView+HighlightedWebCache.m */,
+				EE82396719D178D7005BA4E8 /* UIImageView+WebCache.h */,
+				EE82396819D178D7005BA4E8 /* UIImageView+WebCache.m */,
+				EE82396919D178D7005BA4E8 /* UIView+WebCacheOperation.h */,
+				EE82396A19D178D7005BA4E8 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		EE82396B19D178D7005BA4E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE82396C19D178D7005BA4E8 /* WeatherTableViewCell.h */,
+				EE82396D19D178D7005BA4E8 /* WeatherTableViewCell.m */,
+				EE82396E19D178D7005BA4E8 /* WeatherTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8238CE19D1757D005BA4E8 /* weatherNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8238F219D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNew" */;
+			buildPhases = (
+				EE8238CB19D1757D005BA4E8 /* Sources */,
+				EE8238CC19D1757D005BA4E8 /* Frameworks */,
+				EE8238CD19D1757D005BA4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherNew;
+			productName = weatherNew;
+			productReference = EE8238CF19D1757D005BA4E8 /* weatherNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8238E719D1757E005BA4E8 /* weatherNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8238F519D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNewTests" */;
+			buildPhases = (
+				EE8238E419D1757E005BA4E8 /* Sources */,
+				EE8238E519D1757E005BA4E8 /* Frameworks */,
+				EE8238E619D1757E005BA4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8238EA19D1757E005BA4E8 /* PBXTargetDependency */,
+			);
+			name = weatherNewTests;
+			productName = weatherNewTests;
+			productReference = EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8238C719D1757D005BA4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = gaoyong;
+				TargetAttributes = {
+					EE8238CE19D1757D005BA4E8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EE8238E719D1757E005BA4E8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EE8238CE19D1757D005BA4E8;
+					};
+				};
+			};
+			buildConfigurationList = EE8238CA19D1757D005BA4E8 /* Build configuration list for PBXProject "weatherNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8238C619D1757D005BA4E8;
+			productRefGroup = EE8238D019D1757D005BA4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8238CE19D1757D005BA4E8 /* weatherNew */,
+				EE8238E719D1757E005BA4E8 /* weatherNewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8238CD19D1757D005BA4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82398B19D178D7005BA4E8 /* WeatherTableViewCell.xib in Resources */,
+				EE8238DE19D1757D005BA4E8 /* Main.storyboard in Resources */,
+				EE8238E319D1757E005BA4E8 /* LaunchScreen.xib in Resources */,
+				EE8238E019D1757D005BA4E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8238E619D1757E005BA4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8238CB19D1757D005BA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82397E19D178D7005BA4E8 /* SDWebImageDecoder.m in Sources */,
+				EE82398919D178D7005BA4E8 /* UIView+WebCacheOperation.m in Sources */,
+				EE8238DB19D1757D005BA4E8 /* ViewController.m in Sources */,
+				EE82398119D178D7005BA4E8 /* SDWebImageManager.m in Sources */,
+				EE82397019D178D7005BA4E8 /* UIImage+ext.m in Sources */,
+				EE82397519D178D7005BA4E8 /* WeatherDataEngine.m in Sources */,
+				EE82397319D178D7005BA4E8 /* DetailViewController.m in Sources */,
+				EE82397D19D178D7005BA4E8 /* SDWebImageCompat.m in Sources */,
+				EE82398019D178D7005BA4E8 /* SDWebImageDownloaderOperation.m in Sources */,
+				EE82392219D17671005BA4E8 /* NSDictionary+RequestEncoding.m in Sources */,
+				EE82396F19D178D7005BA4E8 /* SafeClassMethod.m in Sources */,
+				EE82398819D178D7005BA4E8 /* UIImageView+WebCache.m in Sources */,
+				EE82397919D178D7005BA4E8 /* weatherInfoModel.m in Sources */,
+				EE82397419D178D7005BA4E8 /* HomeViewController.m in Sources */,
+				EE82392319D17671005BA4E8 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				EE82398719D178D7005BA4E8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				EE82392419D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				EE82397619D178D7005BA4E8 /* AppPrepareTool.m in Sources */,
+				EE82397119D178D7005BA4E8 /* UINavigationBar+ext.m in Sources */,
+				EE82398419D178D7005BA4E8 /* UIImage+GIF.m in Sources */,
+				EE82398A19D178D7005BA4E8 /* WeatherTableViewCell.m in Sources */,
+				EE82398519D178D7005BA4E8 /* UIImage+MultiFormat.m in Sources */,
+				EE8238D819D1757D005BA4E8 /* AppDelegate.m in Sources */,
+				EE82398619D178D7005BA4E8 /* UIImage+WebP.m in Sources */,
+				EE82398219D178D7005BA4E8 /* SDWebImagePrefetcher.m in Sources */,
+				EE82392719D17671005BA4E8 /* MKNetworkOperation.m in Sources */,
+				EE82397719D178D7005BA4E8 /* CommonHelper.m in Sources */,
+				EE82397819D178D7005BA4E8 /* BaseModel.m in Sources */,
+				EE82397219D178D7005BA4E8 /* BaseViewController.m in Sources */,
+				EE82397A19D178D7005BA4E8 /* MKAnnotationView+WebCache.m in Sources */,
+				EE82392519D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				EE82397F19D178D7005BA4E8 /* SDWebImageDownloader.m in Sources */,
+				EE82398319D178D7005BA4E8 /* UIButton+WebCache.m in Sources */,
+				EE82392619D17671005BA4E8 /* MKNetworkEngine.m in Sources */,
+				EE82397B19D178D7005BA4E8 /* NSData+ImageContentType.m in Sources */,
+				EE8238D519D1757D005BA4E8 /* main.m in Sources */,
+				EE82392119D17671005BA4E8 /* NSDate+RFC1123.m in Sources */,
+				EE82397C19D178D7005BA4E8 /* SDImageCache.m in Sources */,
+				EE82392819D17671005BA4E8 /* Reachability.m in Sources */,
+				EE82392019D17671005BA4E8 /* NSData+MKBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8238E419D1757E005BA4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8238EF19D1757E005BA4E8 /* weatherNewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8238EA19D1757E005BA4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8238CE19D1757D005BA4E8 /* weatherNew */;
+			targetProxy = EE8238E919D1757E005BA4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8238DC19D1757D005BA4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8238DD19D1757D005BA4E8 /* Base */,
+				EE82398C19D17BDF005BA4E8 /* zh-Hans */,
+				EE82399019D17C41005BA4E8 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8238E119D1757E005BA4E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8238E219D1757E005BA4E8 /* Base */,
+				EE82398D19D17BDF005BA4E8 /* zh-Hans */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8238F019D1757E005BA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8238F119D1757E005BA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8238F319D1757E005BA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = weatherNew/PrefixHeader.pch;
+				INFOPLIST_FILE = weatherNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE8238F419D1757E005BA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = weatherNew/PrefixHeader.pch;
+				INFOPLIST_FILE = weatherNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE8238F619D1757E005BA4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = weatherNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weatherNew.app/weatherNew";
+			};
+			name = Debug;
+		};
+		EE8238F719D1757E005BA4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = weatherNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weatherNew.app/weatherNew";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8238CA19D1757D005BA4E8 /* Build configuration list for PBXProject "weatherNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8238F019D1757E005BA4E8 /* Debug */,
+				EE8238F119D1757E005BA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8238F219D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8238F319D1757E005BA4E8 /* Debug */,
+				EE8238F419D1757E005BA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE8238F519D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8238F619D1757E005BA4E8 /* Debug */,
+				EE8238F719D1757E005BA4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8238C719D1757D005BA4E8 /* Project object */;
+}
