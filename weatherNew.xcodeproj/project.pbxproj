@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE155D2719D2BB1B000FA780 /* citycode.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE155D2619D2BB1B000FA780 /* citycode.plist */; };
 		EE8238D519D1757D005BA4E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238D419D1757D005BA4E8 /* main.m */; };
 		EE8238D819D1757D005BA4E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238D719D1757D005BA4E8 /* AppDelegate.m */; };
 		EE8238DB19D1757D005BA4E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238DA19D1757D005BA4E8 /* ViewController.m */; };
 		EE8238DE19D1757D005BA4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8238DC19D1757D005BA4E8 /* Main.storyboard */; };
 		EE8238E019D1757D005BA4E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8238DF19D1757D005BA4E8 /* Images.xcassets */; };
 		EE8238E319D1757E005BA4E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8238E119D1757E005BA4E8 /* LaunchScreen.xib */; };
-		EE8238EF19D1757E005BA4E8 /* weatherNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */; };
 		EE8238FC19D175EC005BA4E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238FB19D175EC005BA4E8 /* CoreGraphics.framework */; };
 		EE8238FE19D1760A005BA4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238FD19D1760A005BA4E8 /* Foundation.framework */; };
 		EE8238FF19D17618005BA4E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8238F819D175C0005BA4E8 /* UIKit.framework */; };
@@ -60,19 +60,12 @@
 		EE82398919D178D7005BA4E8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396A19D178D7005BA4E8 /* UIView+WebCacheOperation.m */; };
 		EE82398A19D178D7005BA4E8 /* WeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82396D19D178D7005BA4E8 /* WeatherTableViewCell.m */; };
 		EE82398B19D178D7005BA4E8 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE82396E19D178D7005BA4E8 /* WeatherTableViewCell.xib */; };
+		EE8A68B919D271140089654D /* GPSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A68B619D271140089654D /* GPSInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EE8A68BA19D271140089654D /* GPSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A68B819D271140089654D /* GPSManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EE8238E919D1757E005BA4E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE8238C719D1757D005BA4E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE8238CE19D1757D005BA4E8;
-			remoteInfo = weatherNew;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		EE155D2619D2BB1B000FA780 /* citycode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citycode.plist; sourceTree = "<group>"; };
 		EE8238CF19D1757D005BA4E8 /* weatherNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8238D319D1757D005BA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8238D419D1757D005BA4E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,9 +76,6 @@
 		EE8238DD19D1757D005BA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE8238DF19D1757D005BA4E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE8238E219D1757E005BA4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8238ED19D1757E005BA4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherNewTests.m; sourceTree = "<group>"; };
 		EE8238F819D175C0005BA4E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE8238FB19D175EC005BA4E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EE8238FD19D1760A005BA4E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,6 +168,10 @@
 		EE82398C19D17BDF005BA4E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		EE82398D19D17BDF005BA4E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		EE82399019D17C41005BA4E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EE8A68B519D271140089654D /* GPSInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSInfo.h; sourceTree = "<group>"; };
+		EE8A68B619D271140089654D /* GPSInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSInfo.m; sourceTree = "<group>"; };
+		EE8A68B719D271140089654D /* GPSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSManager.h; sourceTree = "<group>"; };
+		EE8A68B819D271140089654D /* GPSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,21 +190,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8238E519D1757E005BA4E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE155D2519D2BB1B000FA780 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				EE155D2619D2BB1B000FA780 /* citycode.plist */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
 		EE8238C619D1757D005BA4E8 = {
 			isa = PBXGroup;
 			children = (
 				EE8238D119D1757D005BA4E8 /* weatherNew */,
-				EE8238EB19D1757E005BA4E8 /* weatherNewTests */,
 				EE8238FA19D175CA005BA4E8 /* Frameworks */,
 				EE8238D019D1757D005BA4E8 /* Products */,
 			);
@@ -220,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				EE8238CF19D1757D005BA4E8 /* weatherNew.app */,
-				EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +221,8 @@
 		EE8238D119D1757D005BA4E8 /* weatherNew */ = {
 			isa = PBXGroup;
 			children = (
+				EE155D2519D2BB1B000FA780 /* Res */,
+				EE8A68B419D271140089654D /* GPS */,
 				EE82392A19D178D7005BA4E8 /* Category */,
 				EE82393119D178D7005BA4E8 /* Controllers */,
 				EE82393819D178D7005BA4E8 /* DataAccess */,
@@ -255,23 +250,6 @@
 				EE8238D319D1757D005BA4E8 /* Info.plist */,
 				EE8238D419D1757D005BA4E8 /* main.m */,
 				EE82392919D1777E005BA4E8 /* PrefixHeader.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EE8238EB19D1757E005BA4E8 /* weatherNewTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE8238EE19D1757E005BA4E8 /* weatherNewTests.m */,
-				EE8238EC19D1757E005BA4E8 /* Supporting Files */,
-			);
-			path = weatherNewTests;
-			sourceTree = "<group>";
-		};
-		EE8238EC19D1757E005BA4E8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE8238ED19D1757E005BA4E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -450,6 +428,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		EE8A68B419D271140089654D /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A68B519D271140089654D /* GPSInfo.h */,
+				EE8A68B619D271140089654D /* GPSInfo.m */,
+				EE8A68B719D271140089654D /* GPSManager.h */,
+				EE8A68B819D271140089654D /* GPSManager.m */,
+			);
+			path = GPS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -470,24 +459,6 @@
 			productReference = EE8238CF19D1757D005BA4E8 /* weatherNew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE8238E719D1757E005BA4E8 /* weatherNewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE8238F519D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNewTests" */;
-			buildPhases = (
-				EE8238E419D1757E005BA4E8 /* Sources */,
-				EE8238E519D1757E005BA4E8 /* Frameworks */,
-				EE8238E619D1757E005BA4E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE8238EA19D1757E005BA4E8 /* PBXTargetDependency */,
-			);
-			name = weatherNewTests;
-			productName = weatherNewTests;
-			productReference = EE8238E819D1757E005BA4E8 /* weatherNewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -499,10 +470,6 @@
 				TargetAttributes = {
 					EE8238CE19D1757D005BA4E8 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					EE8238E719D1757E005BA4E8 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = EE8238CE19D1757D005BA4E8;
 					};
 				};
 			};
@@ -520,7 +487,6 @@
 			projectRoot = "";
 			targets = (
 				EE8238CE19D1757D005BA4E8 /* weatherNew */,
-				EE8238E719D1757E005BA4E8 /* weatherNewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -532,15 +498,9 @@
 			files = (
 				EE82398B19D178D7005BA4E8 /* WeatherTableViewCell.xib in Resources */,
 				EE8238DE19D1757D005BA4E8 /* Main.storyboard in Resources */,
+				EE155D2719D2BB1B000FA780 /* citycode.plist in Resources */,
 				EE8238E319D1757E005BA4E8 /* LaunchScreen.xib in Resources */,
 				EE8238E019D1757D005BA4E8 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE8238E619D1757E005BA4E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +530,7 @@
 				EE82392419D17671005BA4E8 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 				EE82397619D178D7005BA4E8 /* AppPrepareTool.m in Sources */,
 				EE82397119D178D7005BA4E8 /* UINavigationBar+ext.m in Sources */,
+				EE8A68B919D271140089654D /* GPSInfo.m in Sources */,
 				EE82398419D178D7005BA4E8 /* UIImage+GIF.m in Sources */,
 				EE82398A19D178D7005BA4E8 /* WeatherTableViewCell.m in Sources */,
 				EE82398519D178D7005BA4E8 /* UIImage+MultiFormat.m in Sources */,
@@ -582,6 +543,7 @@
 				EE82397219D178D7005BA4E8 /* BaseViewController.m in Sources */,
 				EE82397A19D178D7005BA4E8 /* MKAnnotationView+WebCache.m in Sources */,
 				EE82392519D17671005BA4E8 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				EE8A68BA19D271140089654D /* GPSManager.m in Sources */,
 				EE82397F19D178D7005BA4E8 /* SDWebImageDownloader.m in Sources */,
 				EE82398319D178D7005BA4E8 /* UIButton+WebCache.m in Sources */,
 				EE82392619D17671005BA4E8 /* MKNetworkEngine.m in Sources */,
@@ -594,23 +556,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8238E419D1757E005BA4E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8238EF19D1757E005BA4E8 /* weatherNewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EE8238EA19D1757E005BA4E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE8238CE19D1757D005BA4E8 /* weatherNew */;
-			targetProxy = EE8238E919D1757E005BA4E8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EE8238DC19D1757D005BA4E8 /* Main.storyboard */ = {
@@ -669,7 +615,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -705,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -717,10 +663,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Gao (VHFB68NPJA)";
 				GCC_PREFIX_HEADER = weatherNew/PrefixHeader.pch;
 				INFOPLIST_FILE = weatherNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B00A4BA8-0A4C-4F68-BF9C-9EA614E8EB40";
 			};
 			name = Debug;
 		};
@@ -728,44 +676,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Gao (VHFB68NPJA)";
 				GCC_PREFIX_HEADER = weatherNew/PrefixHeader.pch;
 				INFOPLIST_FILE = weatherNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EE8238F619D1757E005BA4E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = weatherNewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weatherNew.app/weatherNew";
-			};
-			name = Debug;
-		};
-		EE8238F719D1757E005BA4E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = weatherNewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weatherNew.app/weatherNew";
+				PROVISIONING_PROFILE = "B00A4BA8-0A4C-4F68-BF9C-9EA614E8EB40";
 			};
 			name = Release;
 		};
@@ -788,14 +704,7 @@
 				EE8238F419D1757E005BA4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EE8238F519D1757E005BA4E8 /* Build configuration list for PBXNativeTarget "weatherNewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE8238F619D1757E005BA4E8 /* Debug */,
-				EE8238F719D1757E005BA4E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
